@@ -1,0 +1,54 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:azure;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(6, 29, 48);
+}
+
+#content{ 
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#banner {
+    background-color: rgb(56, 9, 15);
+    text-align: center;
+    border: 4px solid black;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#blogposts {
+    margin: 10px;
+    border: 4px solid black;
+    background-color: rgb(7, 39, 28);
+}
+
+.post {
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    background-color:rgb(51, 12, 51);
+}
+
+.post .left {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    inline-size: 168px;
+}
+
+.post img {
+    width: 200px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: space-around;
+    
+}
+
